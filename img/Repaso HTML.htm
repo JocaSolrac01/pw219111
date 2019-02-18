@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)file:///Users/ccdm05/Documents/carrusel.html#card2 -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Repaso HTML</title>
+    <style type="text/css">
+    .img{
+        height: 200px;
+        width: 350px;
+        display:inline-block;
+
+    }
+
+    .tira{
+        width: 3000px;
+    }
+    .carrusel{
+        width: 350px;
+        position: relative;
+    }
+    .holder{
+        width: 350px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .btniz,btnde{
+     top:80px;
+     height: 100%;
+
+    }
+    btniz{
+        left: 10px;
+    }
+    .btnde{
+        right: 10px;
+    }
+    .carrusel ul{
+       position:absolute;
+       bottom: 0px;
+       left: 30%;
+       background-color:white;
+       padding-left: 0px;
+       border-radius:5px; 
+    }
+    .carrusel ul li{
+      display: inline-block;
+      list-style: none;
+      padding: .5em;
+    }
+</style>
+</head>
+<body>
+    <h1>Carrusel</h1>
+<div class="carrusel">
+    
+<div class="holder">
+    <div class="tira">
+        <div id="card1" class="img"></div>
+        <div id="card2" class="img" style="background-color:red"></div>
+        <div id="card3" class="img" style="background-color:blue"></div>
+        <div id="card4" class="img" style="background-color:green"></div>
+    </div>
+</div>
+<ul>
+    <li><a href="file:///Users/ccdm05/Documents/carrusel.html#card1">1</a></li>
+    <li><a href="file:///Users/ccdm05/Documents/carrusel.html#card2">2</a></li>
+    <li><a href="file:///Users/ccdm05/Documents/carrusel.html#card3">3</a></li>
+    <li><a href="file:///Users/ccdm05/Documents/carrusel.html#card">4</a></li>
+</ul>
+    <a class="btniz">&lt;</a>
+    <a class="btnde">&gt;</a>
+</div>
+
+
+</body></html>
