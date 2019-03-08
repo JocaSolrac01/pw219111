@@ -2,13 +2,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>Practica 02 CSS3+HTML5</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 
 	<header>
 		<img src="img/banner.png">
-		<img src="img/granthams.png">
-		<img src="img/paint.png">
+		<img src="img/granthams.png" id="granthams">
+		<img src="img/paint.png" id="paint">
 		<input type="search" placeholder="Search">
 		<nav>
 			<ul>
@@ -20,12 +21,14 @@
 			 </ul>
 		</nav>
 	</header>
-	<section>
-		<article>
+	<section id="primerSeccion">
+		<article id="seccion01art01">
 			<img src="img/slide.jpg">
 		</article>
-		<article>
-			We can offer...
+		<article id="seccion01art02">
+			<span class="colorRosa letraGrande nito">
+				We can offer...
+			</span>
 			<ul>
 				<li>Highly Competitive Prices</li>
 				<li>Variable Data</li>
@@ -37,38 +40,53 @@
 				<li>Great Customer Service</li>
 			</ul>
 		</article>
-		<img src="img/bg_offer.png">
+		<img src="img/bg_offer.png" id="bgoffer">
 	</section>
-	<section>
+	<section id="segundaSeccion">
 		<article>
-			01772 25207
+			<span class="colorRosa letraMediana nito">
+				01772 25207
+			</span>
 		</article>
 	</section>
-	<section>
+	<section id="terceraSeccion">
 		<article>
 			<img src="img/cerdito.png">
-			Save this Spring
+			<span class="colorRosa nito">
+				Save this Spring
+			</span>
 			<br>
-			Fabulous disconunts on canva's and roll up's as well as many offers <p>
-				Find out more 
+			Fabulous disconunts on canva's and roll up's as well as many offers 
+			<p>
+				<span class="colorRosa nito">
+					Find out more 
+				</span>
 		</article>
 		<article>
 			<img src="img/hoja.png">
-			ECO
+			<span class="colorVerde nito">
+				ECO Friendly
+			</span>
 			<br>
 			ECO Friendly Materials user in our production process. <br>
 			Recycled papers and paper from Sustainable Forest(including FSC papers) are available across our range of Printing Services.
 		</article>
 		<article>
 			<img src="img/new.png">
-			Upload your file
+			<span class="colorAzul nito">
+				Upload your file
+			</span>
 			<br>
 			Making it easy to order your printing today. Our upload facility enables you to send your files directly to us. Use the notes section to inform us of your order, then sit back and wait for a member of our team to contact you.
 			<p>
-			Upload Your File Now
+			<span class="colorAzul">
+				Upload Your File Now
+			</span>
 		</article>
 		<article>
-			Stay in touch
+			<span class="colorRosa letraMediana">
+				Stay in touch
+			</span>
 			<br>
 			Join our mailing list today <br>
 			<input type="email" placeholder="Email goes here">
