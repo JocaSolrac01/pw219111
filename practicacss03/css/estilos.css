@@ -18,24 +18,27 @@ header input{
 	vertical-align: top;
 }
 footer article{
-	border-top: 1px solid #848484;
+	border-top-style: dotted;
 	display: inline-block;
 	padding-top: 8px;
+	padding-left: 8%;
 	vertical-align: top;
-	width: 32.8%;
+	width: 25%;
 }
 #primeraSeccion{
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 #primeraSeccion article{
 	display: inline-block;
+	margin-left: -4px;
 	padding-top: 20px;
 	vertical-align: top;
+	padding-left: 5px;
 	height: 270px;
-	/*width: 19.7%;*/
 }
 #secc01art01{
-	width: 25%;
+	width: 23%;
 }
 #secc01art01 img{
 	width: 80%;
@@ -88,4 +91,7 @@ footer article{
 }
 .otroColor{
 	color: #BDBDBD;
+}
+.read{
+	float: right;
 }
