@@ -1,0 +1,31 @@
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Audio/Video HTML5</title>
+	<style>
+		video{
+			border-radius: 5px;
+			box-shadow: 10px 10px black;
+			margin-right: 15px;
+			width: 300px;
+		}
+	</style>
+</head>
+<body>
+	Etiquetas de audio y video. <br>
+	<audio controls autoplay loop preload="auto" muted>
+		<source src="media/audio/audiohtml5.mp4" type="">
+		<source src="media/audio/musica.mp3" type="">
+	</audio>
+	<!-- para moviles no se recomienda usar "preload" -->
+	<video loop controls autoplay muted preload="auto">
+		<source src="media/video/Chrome_ImF.mp4" type="">
+		<source src="media/video/Chrome_ImF.ogv" type="">
+		<source src="media/video/Chrome_ImF.webm" type="">
+	</video>
+	<video loop controls autoplay muted preload="auto">
+		<source src="media/video/html5.mp4" type="">
+		<source src="media/video/html5.webm" type="">
+	</video>
+</body>
+</html>
