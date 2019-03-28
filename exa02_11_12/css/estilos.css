@@ -1,0 +1,93 @@
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1024px;
+}
+header ul li{
+	font-family: 'Karla', sans-serif;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: -40px;
+	margin-left: 10px;
+}
+section{
+	border-top: 3px solid black;
+	padding-top: 20px;
+	position: relative;
+	top: -70px;
+}
+#art01{
+	margin-left: 110px;
+	display: inline-block;
+	width: 60%;
+}
+#art01art01{
+	font-family: 'Heebo', sans-serif;
+	font-size: 0.9em;
+	width: 95%;
+}
+#art01art02{
+	font-size: 0.8em;
+	margin-left: 90px;
+	width: 80%;
+}
+#art02{
+	border-left: 3px solid black;
+	float: right;
+	vertical-align: top;
+	margin-top: 10px;
+	padding-left: 20px;
+	width: 25%;
+}
+#Indigo{
+	left: -90px;
+	position: relative;
+	top: -230px;
+	font-weight: bold;
+}
+#lupa{
+	width: 30px;
+	position: relative;
+	top: -88px;
+	left: 170px;
+}
+#menu{
+	position: relative;
+	float: right;
+	top: -73px;
+}
+#northernism{
+	font-size: 2em;
+	position: relative;
+	top: -83px;
+	left: 460px;
+}
+#planta{
+	vertical-align: top;
+	width: 100%
+}
+#persona{
+	margin-top: 40px;
+	width: 90%;
+}
+#tela{
+	width: 90%;
+}
+.letraGrande{
+	font-size: 3em;
+}
+.letraMediana{
+	font-size: 1.5em;
+}
+.roboto{
+	font-family: 'Roboto', sans-serif;
+}
+.anton{
+	font-family: 'Anton', sans-serif;
+}
+.karla{
+	font-family: 'Karla', sans-serif;
+}
+.heebo{
+	font-family: 'Heebo', sans-serif;
+}
