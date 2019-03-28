@@ -1,0 +1,104 @@
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1024px;
+}
+header nav ul li{
+	display: inline-block;
+	/*float: left;*/
+	margin-left: 15px;
+}
+footer article{
+	display: inline-block;
+	/*margin-left: 20px;*/
+	margin-top: 20px;
+	vertical-align: top;
+	width: 19%;
+}
+#bandera{
+	margin-right: 10px;
+	float: right;
+	width: 22px;
+}
+#buy{
+	float: right;
+	margin-bottom: 20px;
+	margin-right: 350px;
+	margin-top: -40px;
+	width: 45px;
+}
+#first{
+	width: 17%;
+	margin-top: 30px;
+}
+#logo_rojo{
+	/*position: relative;*/
+	margin-right: 10px;
+	width: 22px;
+	float: right;
+}
+#mundo{
+	margin-right: 10px;
+	float: right;
+	width: 22px;
+}
+#primeraSeccion{
+	border-top: 2px dotted black;
+}
+#secc01art01{
+	margin-top: 20px;
+	display: inline-block;
+	padding-left: 15px;
+	vertical-align: top;
+	width: 49%;
+}
+#secc01art01art01{
+	padding-bottom: 20px;
+}
+#secc01art01art02{
+	border-top: 1px dotted black;
+	padding-top: 20px;
+
+}
+#secc01art02{
+	display: inline-block;
+	width: 49%;
+}
+#segundaSeccion{
+	margin-bottom: 20px;
+}
+#segundaSeccion img{
+	width: 100px;
+}
+#shop{
+	margin-left: 670px;
+	margin-top: -100px;
+	position: relative;
+	width: 150px;
+}
+#video01{
+	width: 240px;
+}
+#video02{
+	padding-left: 10px;
+	width: 245px;
+}
+#bike{
+	float: left;
+	width: 380px;
+}
+#years{
+	margin-left: -380px;
+	margin-top: 380px;
+	position: relative;
+	width: 140px;
+}
+.letraGrande{
+	font-size: 3.5em;
+}
+.nito{
+	font-weight: bold;
+}
+.colorVerde{
+	color: rgb(120,241,76);
+}
