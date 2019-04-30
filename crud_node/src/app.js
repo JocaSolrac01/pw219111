@@ -9,9 +9,9 @@ const app = express();
 const indiceRutas=require('./rutas/index');
 
 //Configuraciones
-app.set('port', process.env.PORT || 3000);
-app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'views'));
+app.set('port', process.env.PORT || 3000); //env = variable de ambiente , process...toma el puerto del SO
+app.set('view engine', 'ejs'); //view engine = motor de vistas (ejs)
+app.set('views', path.join(__dirname,'views'));
 
 //Usamos las rutas
 app.use("/", indiceRutas);
