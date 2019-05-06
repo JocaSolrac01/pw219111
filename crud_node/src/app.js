@@ -30,3 +30,7 @@ app.use(myConnection(mysql,{
 app.listen(app.get('port'), () => {
 	console.log("Escuchando en puerto 3000, huehuehue");
 })
+
+//post = guardar datos 
+// get = leer datos 
+//put = actualizar
